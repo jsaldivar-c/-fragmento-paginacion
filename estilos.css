@@ -1,0 +1,78 @@
+* {
+	margin            : 0;
+	padding           : 0;
+	box-sizing        : border-box;
+	-moz-box-sizing   : border-box;
+	-webkit-box-sizing: border-box;
+}
+
+body {
+	color      : #2e2e2e;
+	background : #e9e9e9;
+	font-family: Arial, helvetica, sans-serif;
+}
+
+.contenedor {
+	width    : 90%;
+	margin   : auto; 
+	max-width: 1000px;
+}
+
+h1 {
+	color      : #ce7f08;
+	margin     : 20px 0;
+	text-align : center;
+	font-family: "Oswald", Arial, helvetica, sans-serif;
+	font-weight: normal;
+}
+
+.contenedor .articulos {
+	margin-bottom: 20px;
+}
+
+.contenedor .articulos ul {
+	list-style: none;
+}
+
+.contenedor .articulos ul li {
+	/*background: #fff;*/
+	padding      : 15px 10px;
+	border-bottom: 1px solid #c8c8c8;
+}
+
+.paginacion ul {
+	list-style: none;
+}
+
+.paginacion ul li {
+	display     : inline-block;
+	margin-right: 10px; 
+}
+
+.paginacion ul .active a {
+	background: #ce7f08;
+}
+
+.paginacion ul .disabled {
+	color          :#fff;
+	font-family    : "Oswald", Arial, helvetica, sans-serif;
+	display        : inline-block;
+	background     : #c8c8c8;
+	padding        : 15px 25px;
+	cursor         : not-allowed;
+	text-decoration: none;
+}
+
+.paginacion ul li a {
+	color          :#fff;
+	display        : inline-block;
+	font-family    : "Oswald", Arial, helvetica, sans-serif;
+	padding        : 15px 25px;
+	background     : #424242;
+	text-decoration: none;
+}
+
+.paginacion ul li a:hover {
+	background     : #3299bb;
+	text-decoration: none;
+}
