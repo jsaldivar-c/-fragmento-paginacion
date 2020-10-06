@@ -1,14 +1,25 @@
-# Fragmento Pginación MySQL - PHP
+# **Paginación MySQL - PHP**
 
-Fragmento de código básico para realizar una paginación con MySQL y PHP.
+![Paginación PHP - MySQL](https://res.cloudinary.com/dlbfrbl8h/image/upload/v1602022080/paginacion-php-mysql_2_jmdcpg.png "Paginación PHP - MySQL")
 
-## Se utilizo:
+![Paginación PHP - MySQL](https://res.cloudinary.com/dlbfrbl8h/image/upload/v1602022078/paginacion-php-mysql_1_bbwv7n.png "Paginación PHP - MySQL")
 
-> - HTML
-> - CSS
-> - PHP
-> - MySQL
+Fragmento de código para realizar una paginación de articulos basica con MySQL y PHP.
 
-Desarrollado en el curso **Udemy | Desarrollo Web | Carlos Arturo Esparza**
+### **Tecnologías | Lenguajes de Programación | Herramientas | Frameworks | Librerias**
 
-Modificaciones basicas y realización de la practica: **José Saldivar**
+> -   HTML5
+> -   CSS3
+> -   PHP7
+> -   MySQL
+
+### **Caracterisiticas**
+
+> -   Conexión PDO a MySQL
+> -   Consultas MySQL
+
+### Autor
+
+Desarrollado en el curso _**Udemy | PHP - MySQL | Carlos Arturo Esparza**_
+
+Modificaciones basicas y realización de la practica: _**José Saldivar**_
