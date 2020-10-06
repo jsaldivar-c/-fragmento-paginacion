@@ -1,6 +1,6 @@
 <?php
 	try{
-		$conexion = new PDO('mysql:host=localhost:3306;dbname=josesald_paginacion', 'josesald_user_test', 'QjyrNfR65*{i');
+		$conexion = new PDO('mysql:host=localhost:8889;dbname=paginacion', 'root', 'root');
 	}
 	catch(PDOException $e){
 		echo "ERROR: " . $e->getMessage();
