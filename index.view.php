@@ -21,7 +21,7 @@
 
         <section class="paginacion">
             <ul>
-                <!-- Establecemos cuando el boton de "Anterior" estara desabilitado -->
+                <!-- Establecemos cuando el boton de "Anterior" estara deshabilitado -->
                 <?php if($pagina == 1): ?>
                 <li class="disabled">&laquo;</li>
                 <?php else: ?>
@@ -37,7 +37,7 @@
                         }
                     }
                  ?>
-                 <!-- Establecemos cuando el boton de "Siguiente" estara desabilitado -->
+                 <!-- Establecemos cuando el boton de "Siguiente" estara deshabilitado -->
                 <?php if($pagina == $numeroPaginas): ?>
                     <li class="disabled">&raquo;</li>
                 <?php else: ?>
